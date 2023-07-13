@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="sujet-ws">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/students-server/src"/>
+        <property name="context-root" value="sujet-ws"/>
+        <property name="java-output-path" value="/sujet-ws/students-server/build/classes"/>
+    </wb-module>
+</project-modules>

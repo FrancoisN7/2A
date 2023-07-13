@@ -1,0 +1,764 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2022 10:18:58.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.15.0-53-generic
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /home/hagimont/install/jdk-17.0.5
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           17.0.5+9-LTS-191
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:18:58.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:18:58.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Nov-2022 10:18:58.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Nov-2022 10:18:58.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2022 10:18:58.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/hagimont/testws/apache-tomcat-8.5.47/conf/logging.properties
+29-Nov-2022 10:18:58.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 10:18:58.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 10:18:58.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 10:18:58.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 10:18:58.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+29-Nov-2022 10:18:58.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:18:58.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:18:58.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/hagimont/testws/apache-tomcat-8.5.47/temp
+29-Nov-2022 10:18:58.271 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 10:18:58.297 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 10:18:58.308 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 10:18:58.322 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 10:18:58.347 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 10:18:58.347 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 445 ms
+29-Nov-2022 10:18:58.376 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+29-Nov-2022 10:18:58.377 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+29-Nov-2022 10:18:58.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs]
+29-Nov-2022 10:18:58.778 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:18:58.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs] de l'application web s'est terminé en [423] ms
+29-Nov-2022 10:18:58.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT]
+29-Nov-2022 10:18:58.951 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:18:58.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT] de l'application web s'est terminé en [145] ms
+29-Nov-2022 10:18:58.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager]
+29-Nov-2022 10:18:59.090 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:18:59.094 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager] de l'application web s'est terminé en [142] ms
+29-Nov-2022 10:18:59.094 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples]
+29-Nov-2022 10:18:59.303 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:18:59.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples] de l'application web s'est terminé en [219] ms
+29-Nov-2022 10:18:59.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager]
+29-Nov-2022 10:18:59.434 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:18:59.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager] de l'application web s'est terminé en [122] ms
+29-Nov-2022 10:18:59.437 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 10:18:59.442 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 10:18:59.443 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1095 ms
+29-Nov-2022 10:19:49.454 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] de l'application web
+29-Nov-2022 10:19:49.627 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:19:49.630 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] s'est terminé en [175] ms
+29-Nov-2022 10:20:36.602 WARNING [http-nio-8080-exec-3] org.jboss.resteasy.plugins.providers.RegisterBuiltin. NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlSeeAlsoProvider
+29-Nov-2022 10:20:36.603 WARNING [http-nio-8080-exec-3] org.jboss.resteasy.plugins.providers.RegisterBuiltin. NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlRootElementProvider
+29-Nov-2022 10:20:36.603 WARNING [http-nio-8080-exec-3] org.jboss.resteasy.plugins.providers.RegisterBuiltin. NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+29-Nov-2022 10:20:36.603 WARNING [http-nio-8080-exec-3] org.jboss.resteasy.plugins.providers.RegisterBuiltin. NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlTypeProvider
+29-Nov-2022 10:20:36.604 WARNING [http-nio-8080-exec-3] org.jboss.resteasy.plugins.providers.RegisterBuiltin. NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.plugins.providers.jaxb.CollectionProvider
+29-Nov-2022 10:20:36.604 WARNING [http-nio-8080-exec-3] org.jboss.resteasy.plugins.providers.RegisterBuiltin. NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.plugins.providers.jaxb.MapProvider
+29-Nov-2022 10:20:36.605 WARNING [http-nio-8080-exec-3] org.jboss.resteasy.plugins.providers.RegisterBuiltin. NoClassDefFoundError: Unable to load builtin provider: org.jboss.resteasy.plugins.providers.jaxb.XmlJAXBContextFinder
+29-Nov-2022 10:20:36.690 INFO [http-nio-8080-exec-3] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+29-Nov-2022 10:20:36.691 INFO [http-nio-8080-exec-3] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Students from Application class pack.RestApp
+access student: Alain-Tchana
+access record: 1111111111
+access student: Alain-Tchana
+access student: Alain-Tchana
+access student: Alain-Tchana
+access student: Alain-Tchana
+access student: Alain-Tchana
+29-Nov-2022 10:36:22.040 INFO [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+29-Nov-2022 10:36:22.041 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+29-Nov-2022 10:36:22.047 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+29-Nov-2022 10:36:22.053 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+29-Nov-2022 10:36:22.076 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 10:36:22.077 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 10:36:22.078 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 10:36:22.078 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 10:42:19.844 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.15.0-53-generic
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /home/hagimont/install/jdk1.8.0_202/jre
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_202-b08
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+29-Nov-2022 10:42:19.845 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/hagimont/testws/apache-tomcat-8.5.47/conf/logging.properties
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/hagimont/testws/apache-tomcat-8.5.47/temp
+29-Nov-2022 10:42:19.846 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 10:42:19.954 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 10:42:19.960 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 10:42:19.971 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 10:42:19.972 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 10:42:19.973 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 376 ms
+29-Nov-2022 10:42:19.995 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+29-Nov-2022 10:42:19.995 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+29-Nov-2022 10:42:20.007 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] de l'application web
+29-Nov-2022 10:42:20.404 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:42:20.418 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] s'est terminé en [410] ms
+29-Nov-2022 10:42:20.419 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs]
+29-Nov-2022 10:42:20.569 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:42:20.570 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs] de l'application web s'est terminé en [151] ms
+29-Nov-2022 10:42:20.570 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT]
+29-Nov-2022 10:42:20.706 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:42:20.707 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT] de l'application web s'est terminé en [137] ms
+29-Nov-2022 10:42:20.707 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager]
+29-Nov-2022 10:42:20.888 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:42:20.892 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager] de l'application web s'est terminé en [185] ms
+29-Nov-2022 10:42:20.892 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples]
+29-Nov-2022 10:42:21.148 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:42:21.157 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples] de l'application web s'est terminé en [265] ms
+29-Nov-2022 10:42:21.173 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager]
+29-Nov-2022 10:42:21.305 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:42:21.307 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager] de l'application web s'est terminé en [150] ms
+29-Nov-2022 10:42:21.308 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 10:42:21.313 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 10:42:21.314 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1341 ms
+29-Nov-2022 10:42:41.815 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/students-server]
+29-Nov-2022 10:43:11.837 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] de l'application web
+29-Nov-2022 10:43:11.980 INFOS [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:43:11.982 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] s'est terminé en [145] ms
+29-Nov-2022 10:43:22.744 INFOS [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+29-Nov-2022 10:43:22.745 INFOS [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Students from Application class pack.RestApp
+access student: Alain-Tchana
+access student: Alain-Tchana
+29-Nov-2022 10:58:42.169 INFOS [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] de l'application web
+29-Nov-2022 10:58:42.336 INFOS [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 10:58:42.353 INFOS [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] s'est terminé en [184] ms
+29-Nov-2022 10:59:13.031 INFOS [http-nio-8080-exec-13] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+29-Nov-2022 10:59:13.031 INFOS [http-nio-8080-exec-13] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Mark from Application class pack.RestApp
+access student: Alain-Tchana
+access record: 1111111111
+29-Nov-2022 11:03:42.408 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/marks]
+29-Nov-2022 11:03:42.415 INFOS [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] de l'application web
+29-Nov-2022 11:03:42.535 INFOS [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:03:42.536 INFOS [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] s'est terminé en [121] ms
+29-Nov-2022 11:04:08.324 INFOS [http-nio-8080-exec-16] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+29-Nov-2022 11:04:08.324 INFOS [http-nio-8080-exec-16] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Mark from Application class pack.RestApp
+access student: Alain-Tchana
+access record: 1111111111
+29-Nov-2022 11:09:34.175 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+29-Nov-2022 11:09:34.176 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+29-Nov-2022 11:09:34.182 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+29-Nov-2022 11:09:34.187 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+29-Nov-2022 11:09:34.202 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:09:34.203 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:09:34.204 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:09:34.205 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:11:40.000 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.15.0-53-generic
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /home/hagimont/install/jdk1.8.0_202/jre
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_202-b08
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+29-Nov-2022 11:11:40.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/hagimont/testws/apache-tomcat-8.5.47/conf/logging.properties
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/hagimont/testws/apache-tomcat-8.5.47/temp
+29-Nov-2022 11:11:40.002 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 11:11:40.098 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:11:40.105 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 11:11:40.112 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:11:40.113 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 11:11:40.113 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 345 ms
+29-Nov-2022 11:11:40.130 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+29-Nov-2022 11:11:40.131 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+29-Nov-2022 11:11:40.142 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] de l'application web
+29-Nov-2022 11:11:40.493 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:11:40.510 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] s'est terminé en [367] ms
+29-Nov-2022 11:11:40.510 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] de l'application web
+29-Nov-2022 11:11:40.659 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:11:40.661 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] s'est terminé en [150] ms
+29-Nov-2022 11:11:40.661 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs]
+29-Nov-2022 11:11:40.802 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:11:40.804 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs] de l'application web s'est terminé en [143] ms
+29-Nov-2022 11:11:40.804 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT]
+29-Nov-2022 11:11:40.948 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:11:40.949 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT] de l'application web s'est terminé en [145] ms
+29-Nov-2022 11:11:40.949 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager]
+29-Nov-2022 11:11:41.079 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:11:41.082 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager] de l'application web s'est terminé en [133] ms
+29-Nov-2022 11:11:41.082 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples]
+29-Nov-2022 11:11:41.321 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:11:41.331 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples] de l'application web s'est terminé en [249] ms
+29-Nov-2022 11:11:41.331 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager]
+29-Nov-2022 11:11:41.462 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:11:41.464 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager] de l'application web s'est terminé en [133] ms
+29-Nov-2022 11:11:41.465 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:11:41.470 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:11:41.471 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1357 ms
+29-Nov-2022 11:11:49.521 INFOS [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+29-Nov-2022 11:11:49.522 INFOS [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Students from Application class pack.RestApp
+access student: Alain-Tchana
+29-Nov-2022 11:16:26.854 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+29-Nov-2022 11:16:26.854 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+29-Nov-2022 11:16:26.861 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+29-Nov-2022 11:16:26.867 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+29-Nov-2022 11:16:26.894 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:16:26.895 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:16:26.896 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:16:26.896 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:17:42.333 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.15.0-53-generic
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /home/hagimont/install/jdk1.8.0_202/jre
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_202-b08
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/hagimont/testws/apache-tomcat-8.5.47/conf/logging.properties
+29-Nov-2022 11:17:42.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/hagimont/testws/apache-tomcat-8.5.47/temp
+29-Nov-2022 11:17:42.336 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 11:17:42.437 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:17:42.444 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 11:17:42.452 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:17:42.453 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 11:17:42.453 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 355 ms
+29-Nov-2022 11:17:42.470 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+29-Nov-2022 11:17:42.470 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+29-Nov-2022 11:17:42.482 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] de l'application web
+29-Nov-2022 11:17:42.848 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:17:42.863 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] s'est terminé en [380] ms
+29-Nov-2022 11:17:42.863 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] de l'application web
+29-Nov-2022 11:17:43.007 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:17:43.008 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] s'est terminé en [145] ms
+29-Nov-2022 11:17:43.009 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs]
+29-Nov-2022 11:17:43.160 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:17:43.162 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs] de l'application web s'est terminé en [152] ms
+29-Nov-2022 11:17:43.162 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT]
+29-Nov-2022 11:17:43.313 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:17:43.315 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT] de l'application web s'est terminé en [153] ms
+29-Nov-2022 11:17:43.315 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager]
+29-Nov-2022 11:17:43.449 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:17:43.453 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager] de l'application web s'est terminé en [137] ms
+29-Nov-2022 11:17:43.453 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples]
+29-Nov-2022 11:17:43.694 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:17:43.703 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples] de l'application web s'est terminé en [250] ms
+29-Nov-2022 11:17:43.703 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager]
+29-Nov-2022 11:17:43.841 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:17:43.842 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager] de l'application web s'est terminé en [139] ms
+29-Nov-2022 11:17:43.844 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:17:43.851 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:17:43.852 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1398 ms
+29-Nov-2022 11:17:49.082 INFOS [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+29-Nov-2022 11:17:49.083 INFOS [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Students from Application class pack.RestApp
+access student: Alain-Tchana
+29-Nov-2022 11:19:53.899 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/soap.war] de l'application web
+29-Nov-2022 11:19:54.168 INFOS [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:19:54.204 GRAVE [localhost-startStop-2] org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+29-Nov-2022 11:19:54.241 AVERTISSEMENT [localhost-startStop-2] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+29-Nov-2022 11:19:54.301 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/soap.war] s'est terminé en [402] ms
+29-Nov-2022 11:20:44.217 GRAVE [http-nio-8080-exec-3] org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+29-Nov-2022 11:21:36.725 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+29-Nov-2022 11:21:36.726 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+29-Nov-2022 11:21:36.733 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+29-Nov-2022 11:21:36.738 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+29-Nov-2022 11:21:36.760 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:21:36.761 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:21:36.761 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:21:36.762 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:22:25.149 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.15.0-53-generic
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /home/hagimont/install/jdk1.8.0_202/jre
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_202-b08
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/hagimont/testws/apache-tomcat-8.5.47/conf/logging.properties
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 11:22:25.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 11:22:25.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 11:22:25.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 11:22:25.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+29-Nov-2022 11:22:25.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:22:25.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/hagimont/testws/apache-tomcat-8.5.47
+29-Nov-2022 11:22:25.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/hagimont/testws/apache-tomcat-8.5.47/temp
+29-Nov-2022 11:22:25.152 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 11:22:25.257 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:22:25.263 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 11:22:25.271 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:22:25.272 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2022 11:22:25.273 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 367 ms
+29-Nov-2022 11:22:25.289 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+29-Nov-2022 11:22:25.289 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+29-Nov-2022 11:22:25.301 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/soap.war] de l'application web
+29-Nov-2022 11:22:25.776 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:25.830 GRAVE [localhost-startStop-1] org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+29-Nov-2022 11:22:25.886 AVERTISSEMENT [localhost-startStop-1] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+29-Nov-2022 11:22:25.950 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/soap.war] s'est terminé en [649] ms
+29-Nov-2022 11:22:25.951 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] de l'application web
+29-Nov-2022 11:22:26.099 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:26.101 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/students-server.war] s'est terminé en [150] ms
+29-Nov-2022 11:22:26.101 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] de l'application web
+29-Nov-2022 11:22:26.248 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:26.249 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/marks.war] s'est terminé en [148] ms
+29-Nov-2022 11:22:26.250 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs]
+29-Nov-2022 11:22:26.368 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:26.369 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/docs] de l'application web s'est terminé en [119] ms
+29-Nov-2022 11:22:26.370 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT]
+29-Nov-2022 11:22:26.512 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:26.513 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/ROOT] de l'application web s'est terminé en [143] ms
+29-Nov-2022 11:22:26.513 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager]
+29-Nov-2022 11:22:26.648 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:26.652 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/manager] de l'application web s'est terminé en [138] ms
+29-Nov-2022 11:22:26.652 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples]
+29-Nov-2022 11:22:26.867 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:26.876 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/examples] de l'application web s'est terminé en [224] ms
+29-Nov-2022 11:22:26.877 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager]
+29-Nov-2022 11:22:27.025 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:27.026 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/host-manager] de l'application web s'est terminé en [149] ms
+29-Nov-2022 11:22:27.029 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+29-Nov-2022 11:22:27.036 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+29-Nov-2022 11:22:27.037 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1763 ms
+29-Nov-2022 11:22:37.529 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/soap]
+29-Nov-2022 11:22:57.569 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/soap.war] de l'application web
+29-Nov-2022 11:22:57.786 INFOS [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+29-Nov-2022 11:22:57.829 AVERTISSEMENT [localhost-startStop-2] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+29-Nov-2022 11:22:57.880 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/testws/apache-tomcat-8.5.47/webapps/soap.war] s'est terminé en [311] ms
+29-Nov-2022 11:23:20.602 INFOS [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+29-Nov-2022 11:23:20.603 INFOS [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Students from Application class pack.RestApp
+access student: Alain-Tchana
+access record: 1111111111
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Dec-2022 08:38:55.587 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+08-Dec-2022 08:38:55.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+08-Dec-2022 08:38:55.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+08-Dec-2022 08:38:55.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+08-Dec-2022 08:38:55.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.4.0-89-generic
+08-Dec-2022 08:38:55.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Dec-2022 08:38:55.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /usr/lib/jvm/java-11-openjdk-amd64
+08-Dec-2022 08:38:55.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           11.0.16+8-post-Ubuntu-0ubuntu120.04
+08-Dec-2022 08:38:55.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Ubuntu
+08-Dec-2022 08:38:55.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 08:38:55.605 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 08:38:55.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Dec-2022 08:38:55.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Dec-2022 08:38:55.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Dec-2022 08:38:55.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/ftestu/2A/Intergiciels/apache_tomcat/conf/logging.properties
+08-Dec-2022 08:38:55.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Dec-2022 08:38:55.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+08-Dec-2022 08:38:55.607 INFOS [main] org.apache.catalina.startup.VersionLoggerListene08-Dec-2022 09:39:02.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+08-Dec-2022 09:39:02.376 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+08-Dec-2022 09:39:02.376 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+08-Dec-2022 09:39:02.377 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+08-Dec-2022 09:39:02.377 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.4.0-89-generic
+08-Dec-2022 09:39:02.378 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Dec-2022 09:39:02.378 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /mnt/n7fs/ens/tp_dh/jdk1.8.0_202/jre
+08-Dec-2022 09:39:02.378 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_202-b08
+08-Dec-2022 09:39:02.378 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+08-Dec-2022 09:39:02.379 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:39:02.379 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:39:02.379 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/ftestu/2A/Intergiciels/apache_tomcat/conf/logging.properties
+08-Dec-2022 09:39:02.380 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Dec-2022 09:39:02.380 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+08-Dec-2022 09:39:02.380 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Dec-2022 09:39:02.380 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Dec-2022 09:39:02.381 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+08-Dec-2022 09:39:02.381 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:39:02.381 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:39:02.382 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/ftestu/2A/Intergiciels/apache_tomcat/temp
+08-Dec-2022 09:39:02.382 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Dec-2022 09:39:02.500 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Dec-2022 09:39:02.507 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Dec-2022 09:39:02.515 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+08-Dec-2022 09:39:02.516 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Dec-2022 09:39:02.517 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 398 ms
+08-Dec-2022 09:39:02.536 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Dec-2022 09:39:02.536 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+08-Dec-2022 09:39:02.552 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/marks.war] de l'application web
+08-Dec-2022 09:39:02.927 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:02.955 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/marks.war] s'est terminé en [402] ms
+08-Dec-2022 09:39:02.956 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server.war] de l'application web
+08-Dec-2022 09:39:02.958 INFOS [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand Un répertoire décompressé [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server] a été trouvé avec une date de dernière modification qui ne correspond pas au WAR associé, il sera effacé
+08-Dec-2022 09:39:03.170 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:03.185 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server.war] s'est terminé en [228] ms
+08-Dec-2022 09:39:03.186 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/soap.war] de l'application web
+08-Dec-2022 09:39:03.520 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:03.605 AVERTISSEMENT [localhost-startStop-1] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+08-Dec-2022 09:39:03.902 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/soap.war] s'est terminé en [716] ms
+08-Dec-2022 09:39:03.903 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/docs]
+08-Dec-2022 09:39:04.461 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:04.463 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/docs] de l'application web s'est terminé en [560] ms
+08-Dec-2022 09:39:04.464 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/examples]
+08-Dec-2022 09:39:04.808 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:04.835 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/examples] de l'application web s'est terminé en [371] ms
+08-Dec-2022 09:39:04.835 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/ROOT]
+08-Dec-2022 09:39:04.989 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:04.991 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/ROOT] de l'application web s'est terminé en [156] ms
+08-Dec-2022 09:39:04.991 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/host-manager]
+08-Dec-2022 09:39:05.155 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:05.158 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/host-manager] de l'application web s'est terminé en [167] ms
+08-Dec-2022 09:39:05.159 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/manager]
+08-Dec-2022 09:39:05.339 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:39:05.341 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/manager] de l'application web s'est terminé en [183] ms
+08-Dec-2022 09:39:05.344 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Dec-2022 09:39:05.359 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+08-Dec-2022 09:39:05.375 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 2857 ms
+08-Dec-2022 09:43:31.483 INFOS [http-nio-8080-exec-2] org.jboss.resteasy.spi.ResteasyDeployment. Deploying javax.ws.rs.core.Application: class pack.RestApp
+08-Dec-2022 09:43:31.485 INFOS [http-nio-8080-exec-2] org.jboss.resteasy.spi.ResteasyDeployment. Adding singleton resource pack.Mark from Application class pack.RestApp
+javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocation.handleErrorStatus(ClientInvocation.java:181)
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocation.extractResult(ClientInvocation.java:154)
+	at org.jboss.resteasy.client.jaxrs.internal.proxy.extractors.BodyEntityExtractor.extractEntity(BodyEntityExtractor.java:58)
+	at org.jboss.resteasy.client.jaxrs.internal.proxy.ClientInvoker.invoke(ClientInvoker.java:104)
+	at org.jboss.resteasy.client.jaxrs.internal.proxy.ClientProxy.invoke(ClientProxy.java:62)
+	at com.sun.proxy.$Proxy29.getStudent(Unknown Source)
+	at pack.Mark.getMark(Mark.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:528)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+08-Dec-2022 09:49:39.909 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+08-Dec-2022 09:49:39.910 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Dec-2022 09:49:39.916 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+08-Dec-2022 09:49:39.922 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Dec-2022 09:49:39.950 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Dec-2022 09:49:39.951 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+08-Dec-2022 09:49:39.952 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Dec-2022 09:49:39.953 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]
+08-Dec-2022 09:49:45.225 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+08-Dec-2022 09:49:45.227 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+08-Dec-2022 09:49:45.228 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+08-Dec-2022 09:49:45.228 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+08-Dec-2022 09:49:45.228 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.4.0-89-generic
+08-Dec-2022 09:49:45.229 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Dec-2022 09:49:45.229 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /mnt/n7fs/ens/tp_dh/jdk1.8.0_202/jre
+08-Dec-2022 09:49:45.229 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_202-b08
+08-Dec-2022 09:49:45.229 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+08-Dec-2022 09:49:45.230 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:49:45.230 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:49:45.230 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/ftestu/2A/Intergiciels/apache_tomcat/conf/logging.properties
+08-Dec-2022 09:49:45.231 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Dec-2022 09:49:45.231 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+08-Dec-2022 09:49:45.232 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Dec-2022 09:49:45.232 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Dec-2022 09:49:45.232 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+08-Dec-2022 09:49:45.233 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:49:45.233 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/ftestu/2A/Intergiciels/apache_tomcat
+08-Dec-2022 09:49:45.233 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/ftestu/2A/Intergiciels/apache_tomcat/temp
+08-Dec-2022 09:49:45.233 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Dec-2022 09:49:45.349 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Dec-2022 09:49:45.356 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Dec-2022 09:49:45.364 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+08-Dec-2022 09:49:45.366 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Dec-2022 09:49:45.366 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 388 ms
+08-Dec-2022 09:49:45.384 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Dec-2022 09:49:45.385 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+08-Dec-2022 09:49:45.401 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/marks.war] de l'application web
+08-Dec-2022 09:49:45.783 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:45.813 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/marks.war] s'est terminé en [411] ms
+08-Dec-2022 09:49:45.813 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server.war] de l'application web
+08-Dec-2022 09:49:46.002 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:46.016 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server.war] s'est terminé en [203] ms
+08-Dec-2022 09:49:46.017 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/soap.war] de l'application web
+08-Dec-2022 09:49:46.359 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:46.442 AVERTISSEMENT [localhost-startStop-1] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+08-Dec-2022 09:49:46.731 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/soap.war] s'est terminé en [713] ms
+08-Dec-2022 09:49:46.732 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/docs]
+08-Dec-2022 09:49:46.914 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:46.915 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/docs] de l'application web s'est terminé en [183] ms
+08-Dec-2022 09:49:46.916 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/examples]
+08-Dec-2022 09:49:47.254 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:47.279 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/examples] de l'application web s'est terminé en [362] ms
+08-Dec-2022 09:49:47.279 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/ROOT]
+08-Dec-2022 09:49:47.434 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:47.436 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/ROOT] de l'application web s'est terminé en [157] ms
+08-Dec-2022 09:49:47.436 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/host-manager]
+08-Dec-2022 09:49:47.603 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:47.606 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/host-manager] de l'application web s'est terminé en [170] ms
+08-Dec-2022 09:49:47.606 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/manager]
+08-Dec-2022 09:49:47.786 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Dec-2022 09:49:47.788 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/manager] de l'application web s'est terminé en [181] ms
+08-Dec-2022 09:49:47.790 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Dec-2022 09:49:47.807 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+08-Dec-2022 09:49:47.816 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 2449 ms
+16-Dec-2022 18:03:54.698 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+16-Dec-2022 18:03:55.262 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+16-Dec-2022 18:03:55.296 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+16-Dec-2022 18:03:56.016 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+16-Dec-2022 18:03:56.057 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+16-Dec-2022 18:03:56.084 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+16-Dec-2022 18:03:56.105 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jan-2023 11:42:17.201 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+10-Jan-2023 11:42:17.205 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+10-Jan-2023 11:42:17.206 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+10-Jan-2023 11:42:17.206 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+10-Jan-2023 11:42:17.206 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        5.4.0-89-generic
+10-Jan-2023 11:42:17.207 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jan-2023 11:42:17.207 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /usr/lib/jvm/java-11-openjdk-amd64
+10-Jan-2023 11:42:17.207 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           11.0.17+8-post-Ubuntu-1ubuntu220.04
+10-Jan-2023 11:42:17.208 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Ubuntu
+10-Jan-2023 11:42:17.208 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ftestu/2A/Intergiciels/apache_tomcat
+10-Jan-2023 11:42:17.208 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ftestu/2A/Intergiciels/apache_tomcat
+10-Jan-2023 11:42:17.210 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jan-2023 11:42:17.211 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jan-2023 11:42:17.211 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jan-2023 11:42:17.211 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/ftestu/2A/Intergiciels/apache_tomcat/conf/logging.properties
+10-Jan-2023 11:42:17.212 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jan-2023 11:42:17.212 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jan-2023 11:42:17.212 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jan-2023 11:42:17.212 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jan-2023 11:42:17.213 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+10-Jan-2023 11:42:17.213 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/ftestu/2A/Intergiciels/apache_tomcat
+10-Jan-2023 11:42:17.213 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/ftestu/2A/Intergiciels/apache_tomcat
+10-Jan-2023 11:42:17.213 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/ftestu/2A/Intergiciels/apache_tomcat/temp
+10-Jan-2023 11:42:17.213 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+10-Jan-2023 11:42:17.287 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+10-Jan-2023 11:42:17.309 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jan-2023 11:42:17.322 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+10-Jan-2023 11:42:17.324 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jan-2023 11:42:17.324 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1137 ms
+10-Jan-2023 11:42:17.454 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Jan-2023 11:42:17.455 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+10-Jan-2023 11:42:17.541 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/marks.war] de l'application web
+10-Jan-2023 11:42:18.616 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:18.744 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/marks.war] s'est terminé en [1 200] ms
+10-Jan-2023 11:42:18.779 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server.war] de l'application web
+10-Jan-2023 11:42:18.785 INFOS [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand Un répertoire décompressé [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server] a été trouvé avec une date de dernière modification qui ne correspond pas au WAR associé, il sera effacé
+10-Jan-2023 11:42:19.172 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:19.197 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/students-server.war] s'est terminé en [418] ms
+10-Jan-2023 11:42:19.215 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/soap.war] de l'application web
+10-Jan-2023 11:42:20.026 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:20.182 AVERTISSEMENT [localhost-startStop-1] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+10-Jan-2023 11:42:20.438 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/soap.war] s'est terminé en [1 223] ms
+10-Jan-2023 11:42:20.440 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/docs]
+10-Jan-2023 11:42:20.741 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:20.743 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/docs] de l'application web s'est terminé en [304] ms
+10-Jan-2023 11:42:20.744 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/examples]
+10-Jan-2023 11:42:21.866 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:21.910 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/examples] de l'application web s'est terminé en [1 167] ms
+10-Jan-2023 11:42:21.910 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/ROOT]
+10-Jan-2023 11:42:22.130 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:22.132 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/ROOT] de l'application web s'est terminé en [222] ms
+10-Jan-2023 11:42:22.133 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/host-manager]
+10-Jan-2023 11:42:22.398 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:22.401 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/host-manager] de l'application web s'est terminé en [268] ms
+10-Jan-2023 11:42:22.401 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/manager]
+10-Jan-2023 11:42:22.585 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:42:22.588 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/manager] de l'application web s'est terminé en [187] ms
+10-Jan-2023 11:42:22.594 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+10-Jan-2023 11:42:22.606 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+10-Jan-2023 11:42:22.610 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 5285 ms
+10-Jan-2023 11:48:02.752 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/WS.war] de l'application web
+10-Jan-2023 11:48:03.364 INFOS [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Jan-2023 11:48:03.496 AVERTISSEMENT [localhost-startStop-2] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+10-Jan-2023 11:48:03.681 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/ftestu/2A/Intergiciels/apache_tomcat/webapps/WS.war] s'est terminé en [929] ms
+10-Jan-2023 11:57:09.433 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+10-Jan-2023 11:57:09.435 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+10-Jan-2023 11:57:09.444 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+10-Jan-2023 11:57:09.450 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Jan-2023 11:57:09.465 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [ROOT]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.479 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [students-server]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.493 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [examples]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.498 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [marks]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.502 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [soap]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.506 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [host-manager]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.509 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [WS]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.522 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [manager]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.526 AVERTISSEMENT [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Impossible d'effacer les références faibles de ObjectStreamClass$Caches pour l'application web [docs]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2245)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2232)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1605)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1550)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:446)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5439)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+10-Jan-2023 11:57:09.527 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+10-Jan-2023 11:57:09.532 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+10-Jan-2023 11:57:09.535 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+10-Jan-2023 11:57:09.536 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]

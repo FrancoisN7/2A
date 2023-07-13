@@ -1,0 +1,15 @@
+127.0.0.1 - - [08/Dec/2022:09:39:07 +0100] "GET / HTTP/1.1" 200 11215
+127.0.0.1 - - [08/Dec/2022:09:39:15 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:39:21 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:39:23 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:40:35 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:40:36 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:40:37 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:42:42 +0100] "GET /students-server/rest/getrecord?ine=1111111111 HTTP/1.1" 404 1034
+127.0.0.1 - - [08/Dec/2022:09:43:31 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:43:31 +0100] "GET /marks/rest/getmark?firstname=Alain&lastname=Tchana&lecture=systems HTTP/1.1" 204 -
+127.0.0.1 - - [08/Dec/2022:09:49:27 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:49:50 +0100] "GET / HTTP/1.1" 200 11215
+127.0.0.1 - - [08/Dec/2022:09:49:55 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:49:57 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
+127.0.0.1 - - [08/Dec/2022:09:49:58 +0100] "GET /students-server/rest/getstudent?firstname=Alain&lastname=Tchana HTTP/1.1" 404 1035
