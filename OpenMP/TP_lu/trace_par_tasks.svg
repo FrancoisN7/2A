@@ -1,0 +1,41 @@
+<svg x="-11" y="-8" width="1060.000000" height="29.000000">
+    <rect x="0.000000" y="0.000000" width="133.027523" height="10.000000" fill="#d38d5f" stroke-width="0"/>
+    <rect x="133.027523" y="0.000000" width="73.394495" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="206.422018" y="0.000000" width="64.220183" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="275.229358" y="0.000000" width="64.220183" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="339.449541" y="0.000000" width="59.633028" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="403.669725" y="0.000000" width="87.155963" height="10.000000" fill="#d38d5f" stroke-width="0"/>
+    <rect x="490.825688" y="0.000000" width="50.458716" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="541.284404" y="0.000000" width="55.045872" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="596.330275" y="0.000000" width="50.458716" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="646.788991" y="0.000000" width="73.394495" height="10.000000" fill="#d38d5f" stroke-width="0"/>
+    <rect x="720.183486" y="0.000000" width="41.284404" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="761.467890" y="0.000000" width="41.284404" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="802.752294" y="0.000000" width="59.633028" height="10.000000" fill="#d38d5f" stroke-width="0"/>
+    <rect x="862.385321" y="0.000000" width="32.110092" height="10.000000" fill="#ffdd55" stroke-width="0"/>
+    <rect x="894.495413" y="0.000000" width="50.458716" height="10.000000" fill="#d38d5f" stroke-width="0"/>
+    <rect x="944.954128" y="0.000000" width="55.045872" height="10.000000" fill="#8dd35f" stroke-width="0"/>
+<line x1="0" y1="20.200000" x2="1020.000000" y2="20.200000"                      style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="1010.000000" y="8.000000" style="font-size:6pt">Thread 0</text>
+<text x="0" y="28.000000" style="font-size:6pt">Time (usec.)</text>
+<line x1="100.000000" y1="19.200000" x2="100.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="100.000000" y="27.200000" style="font-size:6pt"> 22 </text>
+<line x1="200.000000" y1="19.200000" x2="200.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="200.000000" y="27.200000" style="font-size:6pt"> 44 </text>
+<line x1="300.000000" y1="19.200000" x2="300.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="300.000000" y="27.200000" style="font-size:6pt"> 65 </text>
+<line x1="400.000000" y1="19.200000" x2="400.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="400.000000" y="27.200000" style="font-size:6pt"> 87 </text>
+<line x1="500.000000" y1="19.200000" x2="500.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="500.000000" y="27.200000" style="font-size:6pt"> 109 </text>
+<line x1="600.000000" y1="19.200000" x2="600.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="600.000000" y="27.200000" style="font-size:6pt"> 131 </text>
+<line x1="700.000000" y1="19.200000" x2="700.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="700.000000" y="27.200000" style="font-size:6pt"> 153 </text>
+<line x1="800.000000" y1="19.200000" x2="800.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="800.000000" y="27.200000" style="font-size:6pt"> 174 </text>
+<line x1="900.000000" y1="19.200000" x2="900.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="900.000000" y="27.200000" style="font-size:6pt"> 196 </text>
+<line x1="1000.000000" y1="19.200000" x2="1000.000000" y2="21.200000"                      style="stroke:rgb(0,0,0);stroke-width:0.5"/>
+<text x="1000.000000" y="27.200000" style="font-size:6pt"> 218 </text>
+</svg>

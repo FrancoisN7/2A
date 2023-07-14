@@ -1,0 +1,26 @@
+graph G {
+node [color=black,
+fillcolor=white,
+shape=circle,
+style=filled
+];
+node0000[label="id:0\lweight:0\ldist:0\l"];
+node0001[label="id:1\lp:0\lweight:0\ldist:0\l"];
+node0000 -- node0001
+node0002[label="id:2\lp:1\lweight:0\ldist:0\l"];
+node0001 -- node0002
+node0003[label="id:3\lp:2\lweight:0\ldist:0\l"];
+node0002 -- node0003
+node0004[label="id:4\lp:3\lweight:0\ldist:0\l"];
+node0003 -- node0004
+node0005[label="id:5\lp:4\lweight:0\ldist:0\l"];
+node0004 -- node0005
+node0006[label="id:6\lp:5\lweight:0\ldist:0\l"];
+node0005 -- node0006
+node0007[label="id:7\lp:6\lweight:0\ldist:0\l"];
+node0006 -- node0007
+node0008[label="id:8\lp:6\lweight:0\ldist:0\l"];
+node0006 -- node0008
+node0009[label="id:9\lp:6\lweight:0\ldist:0\l"];
+node0006 -- node0009
+}
