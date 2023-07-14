@@ -1,0 +1,152 @@
+# dune runtest
+# OCAMLPARAM: unset
+# Workspace root: "/home/ftestu/2A/Prog fonc/BE2019/sourcesEtu"
+$ /usr/bin/nproc > /tmp/dune8fa41b.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /applications/opam/ocaml-base-compiler/bin/ocamlc.opt -config > /tmp/dune13eab9.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/applications/opam/ocaml-base-compiler/lib/toplevel"
+#  ; ocaml_bin = External "/applications/opam/ocaml-base-compiler/bin"
+#  ; ocaml = Ok External "/applications/opam/ocaml-base-compiler/bin/ocaml"
+#  ; ocamlc = External "/applications/opam/ocaml-base-compiler/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/applications/opam/ocaml-base-compiler/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/applications/opam/ocaml-base-compiler/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/applications/opam/ocaml-base-compiler/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/applications/opam/ocaml-base-compiler/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/applications/opam/ocaml-base-compiler/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/home/ftestu/2A/Prog fonc/BE2019/sourcesEtu"
+#        ; "INSIDE_DUNE" :
+#            "/home/ftestu/2A/Prog fonc/BE2019/sourcesEtu/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/ftestu/2A/Prog fonc/BE2019/sourcesEtu/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/ftestu/2A/Prog fonc/BE2019/sourcesEtu/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/ftestu/2A/Prog fonc/BE2019/sourcesEtu/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/applications/opam/ocaml-base-compiler/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "/applications/opam/ocaml-base-compiler/lib/ocaml"
+#      ; standard_library = "/applications/opam/ocaml-base-compiler/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && .be.inline-tests/inline_test_runner_be.exe inline-test-runner be -source-tree-root . -diff-cmd -)
+> File "be.ml", line 164, characters 0-51: <<(decoder 123212 arbre_simple) = "abcbab">> threw "Match_failure be.ml:145:31".
+>   Raised at Base__Exn.protectx in file "src/exn.ml", line 71, characters 4-114
+>   Called from Ppx_inline_test_lib__Runtime.time_and_reset_random_seeds in file "runtime-lib/runtime.ml", line 356, characters 15-52
+>   Called from Ppx_inline_test_lib__Runtime.test in file "runtime-lib/runtime.ml", line 444, characters 52-83
+>
+> File "be.ml", line 165, characters 0-47: <<(decoder 123212 arbre_sujet) = "bac">> threw "Match_failure be.ml:145:31".
+>   Raised at Base__Exn.protectx in file "src/exn.ml", line 71, characters 4-114
+>   Called from Ppx_inline_test_lib__Runtime.time_and_reset_random_seeds in file "runtime-lib/runtime.ml", line 356, characters 15-52
+>   Called from Ppx_inline_test_lib__Runtime.test in file "runtime-lib/runtime.ml", line 444, characters 52-83
+>
+> File "be.ml", line 166, characters 0-45: <<(decoder 123 arbre_simple) = "abc">> threw "Match_failure be.ml:145:31".
+>   Raised at Base__Exn.protectx in file "src/exn.ml", line 71, characters 4-114
+>   Called from Ppx_inline_test_lib__Runtime.time_and_reset_random_seeds in file "runtime-lib/runtime.ml", line 356, characters 15-52
+>   Called from Ppx_inline_test_lib__Runtime.test in file "runtime-lib/runtime.ml", line 444, characters 52-83
+>
+> File "be.ml", line 167, characters 0-43: <<(decoder 123 arbre_sujet) = "ba">> threw "Match_failure be.ml:145:31".
+>   Raised at Base__Exn.protectx in file "src/exn.ml", line 71, characters 4-114
+>   Called from Ppx_inline_test_lib__Runtime.time_and_reset_random_seeds in file "runtime-lib/runtime.ml", line 356, characters 15-52
+>   Called from Ppx_inline_test_lib__Runtime.test in file "runtime-lib/runtime.ml", line 444, characters 52-83
+>
+> File "be.ml", line 168, characters 0-51: <<(decoder 321321 arbre_simple) = "cbacba">> threw "Match_failure be.ml:145:31".
+>   Raised at Base__Exn.protectx in file "src/exn.ml", line 71, characters 4-114
+>   Called from Ppx_inline_test_lib__Runtime.time_and_reset_random_seeds in file "runtime-lib/runtime.ml", line 356, characters 15-52
+>   Called from Ppx_inline_test_lib__Runtime.test in file "runtime-lib/runtime.ml", line 444, characters 52-83
+>
+> File "be.ml", line 169, characters 0-87: <<try let _ = decoder 321321 arbre_sujet in fal[...]>> threw "Match_failure be.ml:145:31".
+>   Raised at Base__Exn.protectx in file "src/exn.ml", line 71, characters 4-114
+>   Called from Ppx_inline_test_lib__Runtime.time_and_reset_random_seeds in file "runtime-lib/runtime.ml", line 356, characters 15-52
+>   Called from Ppx_inline_test_lib__Runtime.test in file "runtime-lib/runtime.ml", line 444, characters 52-83
+>
+> FAILED 6 / 73 tests
+[2]
