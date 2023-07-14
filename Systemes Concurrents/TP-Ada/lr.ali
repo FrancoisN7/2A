@@ -1,0 +1,16 @@
+V "GNAT Lib v9"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U lr%s			lr.ads			400998c9 NE OO PK IU
+
+D lr.ads		20191107081045 400998c9 lr%s
+D system.ads		20210601075304 4635ec04 system%s
+X 1 lr.ads
+3K9*LR 4l5 4e7
+

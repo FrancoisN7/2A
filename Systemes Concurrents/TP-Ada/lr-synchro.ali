@@ -1,0 +1,51 @@
+V "GNAT Lib v9"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U lr.synchro%b		lr-synchro.adb		c1e82464 NE OO PK IU
+W lr%s			lr.ads			lr.ali
+W lr.synchro%s		lr-synchro.adb		lr-synchro.ali
+W lr.synchro.automate%s	lr-synchro-automate.adb	lr-synchro-automate.ali
+W lr.synchro.basique%s	lr-synchro-basique.adb	lr-synchro-basique.ali
+W lr.synchro.exclusion%s  lr-synchro-exclusion.adb  lr-synchro-exclusion.ali
+
+U lr.synchro%s		lr-synchro.ads		6f87cbb4 EE NE OO PK IU
+W lr%s			lr.ads			lr.ali
+
+D lr.ads		20191107081045 400998c9 lr%s
+D lr-synchro.ads	20191107081045 2f8e537d lr.synchro%s
+D lr-synchro.adb	20221130142004 3c3a8439 lr.synchro%b
+D lr-synchro-automate.ads  20221130140522 593396bc lr.synchro.automate%s
+D lr-synchro-basique.ads  20191107081045 b74fcab8 lr.synchro.basique%s
+D lr-synchro-exclusion.ads  20221107152722 3c20af24 lr.synchro.exclusion%s
+D system.ads		20210601075304 4635ec04 system%s
+X 1 lr.ads
+3K9*LR 4e7 2|3r9 12r5 3|3r6 4r6 5r6 8r14 10r28 22r5
+X 2 lr-synchro.ads
+3K12*Synchro 1|3k9 2|12l8 12e15 3|3r9 4r9 5r9 8b17 10r31 22l8 22t15
+5V13*Nom_Strategie{string} 3|12b13
+7U14*Demander_Lecture 3|14b14
+8U14*Demander_Ecriture 3|16b14
+9U14*Terminer_Lecture 3|18b14
+10U14*Terminer_Ecriture 3|20b14
+X 3 lr-synchro.adb
+10K12 Synchro=10:39 12r49 14r39 16r40 18r39 20r40
+X 4 lr-synchro-automate.ads
+1K20*Automate 3|5w17 10r39 4|7e24
+2V13*Nom_Strategie{string} 3|12r57
+3U14*Demander_Lecture 3|14r47
+4U14*Demander_Ecriture 3|16r48
+5U14*Terminer_Lecture 3|18r47
+6U14*Terminer_Ecriture 3|20r48
+X 5 lr-synchro-basique.ads
+3K20*Basique 3|3w17 5|12e23
+X 6 lr-synchro-exclusion.ads
+1K20*Exclusion 3|4w17 6|10e25
+

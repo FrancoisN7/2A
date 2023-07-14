@@ -1,0 +1,40 @@
+[GENERATED OBJECT FILE]
+b__lr-main.o
+[PROJECT FILES]
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/build.gpr
+20191107103406
+/usr/share/gpr/gtkada.gpr
+20200225110906
+[BOUND OBJECT FILES]
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-synchro-basique.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-synchro-automate.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-synchro-exclusion.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-synchro.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-simu.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-tasks.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-affic.o
+/home/ftestu/2A/Systemes Concurrents/TP-Ada/lr-main.o
+[GENERATED SOURCE FILES]
+b__lr-main.ads
+b__lr-main.adb
+b__lr-main.ali
+[RESULTING OPTIONS]
+-L/home/ftestu/2A/Systemes Concurrents/TP-Ada/
+-L/home/ftestu/2A/Systemes Concurrents/TP-Ada/
+-L/usr/lib/x86_64-linux-gnu/ada/adalib/gtkada/
+-L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+-shared
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+-lgthread-2.0
+-shared-libgcc
+-lgnarl-9
+-lgnat-9
+-lpthread
+-lrt
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+/usr/lib

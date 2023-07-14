@@ -1,0 +1,122 @@
+V "GNAT Lib v9"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=5
+RV MAX_TASK_ENTRIES=4
+RV MAX_TASKS=1
+
+U lr.synchro.basique%b	lr-synchro-basique.adb	16c1e8cf OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W lr.synchro%s		lr-synchro.adb		lr-synchro.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U lr.synchro.basique%s	lr-synchro-basique.ads	98c199c5 EE NE OO PK IU
+W lr.synchro%s		lr-synchro.adb		lr-synchro.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-finali.ads		20210601075304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D lr.ads		20191107081045 400998c9 lr%s
+D lr-synchro.ads	20191107081045 2f8e537d lr.synchro%s
+D lr-synchro-basique.ads  20191107081045 b74fcab8 lr.synchro.basique%s
+D lr-synchro-basique.adb  20221130135909 008a83f8 lr.synchro.basique%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20210601075304 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-finroo.ads		20210601075304 4ff27390 system.finalization_root%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20220309175724 0b994636 system.os_constants%s
+D s-osinte.ads		20220309175724 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-taprob.ads		20210601075304 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210601075304 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20210601075304 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20210601075304 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 16|3r6 3r23 4r6 40r53
+X 2 a-except.ads
+54K13*Exceptions 349e19 16|4w10 40r57
+104V13*Exception_Information{string} 16|40s68
+X 8 a-textio.ads
+49K13*Text_IO 471e16 16|3w10 3r27
+263U14*Put_Line 16|40s10
+X 13 lr.ads
+3K9*LR 4e7 15|3r9 12r5 16|7r14 63r5
+X 14 lr-synchro.ads
+3K12*Synchro 13|3k9 14|12e15 15|3r12 12r8 16|7r17 63r8
+X 15 lr-synchro-basique.ads
+3K20*Basique 14|3k12 15|12l16 12e23 16|7b25 63l16 63t23
+5V13*Nom_Strategie{string} 16|9b13 12l8 12t21
+7U14*Demander_Lecture 16|43b14 46l8 46t24
+8U14*Demander_Ecriture 16|48b14 51l8 51t25
+9U14*Terminer_Lecture 16|53b14 56l8 56t24
+10U14*Terminer_Ecriture 16|58b14 61l8 61t25
+X 16 lr-synchro-basique.adb
+14t9 LectRedTask 21b14 41l8 41t19 45r7 50r7 55r7 60r7
+15Y13 Demander_Lecture 27b46 45s19
+16Y13 Demander_Ecriture 29b62 50s19
+17Y13 Terminer_Lecture 31b23 55s19
+18Y13 Terminer_Ecriture 33b23 60s19
+22i7 nb_lecture{integer} 28m16 28r30 29r22 32m16 32r30
+23i7 nb_ecriture{integer} 27r19 29r35 30m16 30r31 34m16 34r31
+39r12 Error{2|63R9} 40r90
+X 32 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
